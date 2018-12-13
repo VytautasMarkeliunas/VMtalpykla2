@@ -1,0 +1,42 @@
+LibreBaskerville;
+<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet"> 
+font-family: 'Libre Baskerville', serif;
+
+
+Sintony;    juodoje paantrašteje
+<link href="https://fonts.googleapis.com/css?family=Sintony" rel="stylesheet"> 
+font-family: 'Sintony', sans-serif;
+max plociui reiktu uždeti kaip dizaine, ant konteinerio
+entru sekcijai min hai ir ah???
+
+
+del foninio paveikslo intro sekcijoje - nedeti per img
+fonini pav. reikia per css 
+.intro {backgruond-image url ('')
+heigh :100vh
+min - heihh:816px
+bacgruond-size: cover;   - padengs viska 
+
+}      fona galima su fotopeeja paciai nuotraukai
+; 
+intro:after {content:" "  top:0 left:0
+
+width:100%  height;100% bacground-color rgba}
+
+bacground  taisykleje galia naudoti sluoksnius. css bacground multiple image
+linear-gradient viekia kaip color pradin4 ir glain4 spalvos tos pacioz 
+
+po divej7 du karuts 
+bacground=size:cover, cover;
+background-repeat: no-repeat, no- repeat
+
+ssh raktas
+	ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAsaYnktoKjz5EMxmdtMQ4gHJIDNvGqFxQMJTkKrEcWnVVomly+iX0wR767ZZelsnlGu4ywR2/HRJ2AFId1FroH++2533PeJgsifM55soj2i5f4JJuVBtVFQI2V9dgW3iGHt6CFRSZvSzDV0ODEETGOIJglamnx4ID/eIN5cpxHsNi6HSrXE1QcGhXJ9GgLsx6m4FdXY3QwPl84x9B0UBE0hr/lED4Z/gX3kOuMrQDA4ke4IHfCzRwzlZ2kZBJUrnC9xPWKKaR/gLtSEn7GyKVBbRPwSPXb18v4P3VhC61sUoyDGWuc322zRP+uw2ebh+NtwJw39kiYr5CZuEZe3Aejw== rsa-key-20181213
+ssh fingerprint:
+ssh-rsa 2048 81:3a:6c:b6:55:49:c9:48:d3:ba:c5:5d:0e:48:64:4a
+vardas :  sa-key-20181213
+
+pull - parsisiuti 
+master comit 
+push
+
