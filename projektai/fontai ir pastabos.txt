@@ -10,7 +10,7 @@ font-family: 'Sintony', sans-serif;
 max plociui reiktu uždeti kaip dizaine, ant konteinerio
 entru sekcijai min hai ir ah???
 
-
+-------------------------------------------------------------------
 del foninio paveikslo intro sekcijoje - nedeti per img
 fonini pav. reikia per css 
 .intro {backgruond-image url ('')
@@ -30,7 +30,7 @@ linear-gradient viekia kaip color pradin4 ir glain4 spalvos tos pacioz
 po divej7 du karuts 
 bacground=size:cover, cover;
 background-repeat: no-repeat, no- repeat
-
+-------------------------------------------------------
 ssh raktas
 	ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAsaYnktoKjz5EMxmdtMQ4gHJIDNvGqFxQMJTkKrEcWnVVomly+iX0wR767ZZelsnlGu4ywR2/HRJ2AFId1FroH++2533PeJgsifM55soj2i5f4JJuVBtVFQI2V9dgW3iGHt6CFRSZvSzDV0ODEETGOIJglamnx4ID/eIN5cpxHsNi6HSrXE1QcGhXJ9GgLsx6m4FdXY3QwPl84x9B0UBE0hr/lED4Z/gX3kOuMrQDA4ke4IHfCzRwzlZ2kZBJUrnC9xPWKKaR/gLtSEn7GyKVBbRPwSPXb18v4P3VhC61sUoyDGWuc322zRP+uw2ebh+NtwJw39kiYr5CZuEZe3Aejw== rsa-key-20181213
 ssh fingerprint:
@@ -38,6 +38,14 @@ ssh-rsa 2048 81:3a:6c:b6:55:49:c9:48:d3:ba:c5:5d:0e:48:64:4a
 vardas :  sa-key-20181213
 
 pull - parsisiuti 
-master comit 
+master comit - taip deda 5 tarpin5 bufer5
 push
+-----------------------------------------------------
+ikonele žemyn    fa fa-angle-down arba fa fa-chevron-down  rasiu  https://www.w3schools.com/icons/icons_reference.asp
+ikonele  facebook Twitter instagram pinterest    lapu ikonele  seedling iš avesome
+stacked icons - ratuko uzdejimui
+
+apacios fono spalva - rgb (197,48,98) viršaus fonas tamsus rgb (186,57,99) o sviesus 202,75,117  lapelio apskirtime 240 203 216
+
+
 
