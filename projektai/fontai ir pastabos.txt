@@ -15,7 +15,7 @@ del foninio paveikslo intro sekcijoje - nedeti per img
 fonini pav. reikia per css 
 .intro {backgruond-image url ('')
 heigh :100vh
-min - heihh:816px
+min - heigh:816px
 bacgruond-size: cover;   - padengs viska 
 
 }      fona galima su fotopeeja paciai nuotraukai
@@ -46,6 +46,39 @@ ikonele  facebook Twitter instagram pinterest    lapu ikonele  seedling iš aveso
 stacked icons - ratuko uzdejimui
 
 apacios fono spalva - rgb (197,48,98) viršaus fonas tamsus rgb (186,57,99) o sviesus 202,75,117  lapelio apskirtime 240 203 216
+pavyzdys su fontais:  <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+------------------------------------------------------------------------------------------------------------------------------------
+failo kelias iki saugyklo internete:  smodifikuotas >>> stagen >>> cominted>>> push
+
+.. url - palypeti atgal , kai reikia itraukti nuotrauka ..photo/image1.jpg
+
+(reboot reset.css   majertweb.    reset css  bet jei darome be bootstrapo)  normalize yra vienodinimas visoms naršyklems, tai naudoja bootstrap.  dedal bloka ant main {}
+adresas centro
+40.762748, -73.981210
+------------------------
+
+kai vokas ivesties lauke, imanoma ant bacground image ideti ikona
+
+su ikona i ivesties lauka pavyzdys
+https://codepen.io/victor-lava/pen/PXGjrM?editors=1100
+
+kai ikona liste prie teksto ant abieju deti vertical - line,  veikia ant inline tipo elementu
+
+glaima konteineris 70%, o body - 100, backgroundas ima 100, o kontentas leika 70 procent7
+---
+scss  kintalieji - spalvos(pirmin4, antrin4)  sriftai  (font-family)  sriftu dydzius ...
+kintamiejo turi b8ti scss fialo virsuje
+atskiri _fff.scss _rrr.scss
+sueis 5 style.scss   jame @import'_kintalnieiji.scss'
+nuststymai, po to globlaus fialiukas, vir6uej esa2iao importo sqra6as turi turi4ti ger1 eiliskuma.
+projekt1 pabagti iki 31, po to d4sims JAVA script1.
+
+
+
+
+
+
+
 
 
 
