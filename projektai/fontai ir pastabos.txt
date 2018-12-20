@@ -53,7 +53,7 @@ failo kelias iki saugyklo internete:  smodifikuotas >>> stagen >>> cominted>>> p
 .. url - palypeti atgal , kai reikia itraukti nuotrauka ..photo/image1.jpg
 
 (reboot reset.css   majertweb.    reset css  bet jei darome be bootstrapo)  normalize yra vienodinimas visoms naršyklems, tai naudoja bootstrap.  dedal bloka ant main {}
-adresas centro
+adresas centro projektui google maps
 40.762748, -73.981210
 ------------------------
 
@@ -72,9 +72,19 @@ atskiri _fff.scss _rrr.scss
 sueis 5 style.scss   jame @import'_kintalnieiji.scss'
 nuststymai, po to globlaus fialiukas, vir6uej esa2iao importo sqra6as turi turi4ti ger1 eiliskuma.
 projekt1 pabagti iki 31, po to d4sims JAVA script1.
+-----
+bacground svg uri- kaip guasti , kad glaima butu i css irašyti. 
+flex marginus skaiciuoja nuo ploto, autolamtiškia, neriekai calc nuo ploto procentu
 
-
-
+botstrap riekai naudoti sass , o necss-ini
+10 sass mixin -    engAGEINTERACTIVE.CO.UK    http://engageinteractive.co.uk/  BLOG TOP-10SCSS MIXINS
+@INCLUDAI TURI BUT TIK ELEMENTO VIDUJE
+@MIXIN -- APRA6AI
+NAUDOJI KAIP @INCLUDE
+EXTEND - BENDROA SAVYB4MS, "PAVELDIMOMS"  O MIXINAS NAUDOJAMAS  
+TAB LENGTH REKOMENDUOJA 4 TUReTI, ATOME.
+HOME.PAGE PAPRASTAI KINTAMASIS (gera praktika), ANT OJO BODY <BODY id="home-page"> 
+atomic design github  kitas, ne objektiškia orientuotas, scss deliojimo principas.
 
 
 
