@@ -102,11 +102,19 @@
 .pavardes {height: 55px;}
 .nuo-kaires50px {padding-left: 50px}
 .nuo-kaires67px {padding-left: 67px}
-.nuo-kaires54xpx {padding-left: 54px}
+.nuo-kaires-54xpx {padding-left: 48px;}
+.nuo-kaires-130px {padding-left: 130px; margin-top: 10px;}
+.nuo-kaires-131px {padding-left: 95px; margin-top: 10px;}
+.nuo-kaires-129px {padding-left: 92px; margin-top: 10px;}
+.nuo-kaires-84px {padding-left: 84px; margin-top: 10px;}
+.nuo-kaires-86px {padding-left: 42px; margin-top: 10px;}
+.nuo-kaires-55xpx {padding-left: 147px}
+.nuo-kaires-60xpx {padding-left: 86px}
 
 .nuo-kaires110px {padding-left: 108px}
 .nuo-kairespx {padding-left: 95px}
 .nuo-kaires130px {padding-left: 130px; margin-top: -10px;  }
+.nuo-kaires13Zpx {padding-left: 107px; margin-top: -10px;  }
 .nuo-kaires162px {padding-left: 162px; margin-top: -16px;  }
 .nuo-kaires144xpx {padding-left: 144px; margin-top: -16px;  }
 
@@ -115,8 +123,8 @@
 .nuo-kaires170px {padding-left: 170px; margin-top: -14px;  }
 .nuo-kaires143px {padding-left: 143px; margin-top: -14px; }
 .nuo-kaires149px {padding-left: 149px; margin-top: -14px; }
-.nuo-kaires111px {padding-left: 111px; margin-top: -14px;}
-.nuo-kaires96xpx {padding-left: 96px; margin-top: -14px;}
+.nuo-kaires111px {padding-left: 135px; margin-top: -14px;}
+.nuo-kaires96xpx {padding-left: 126px; margin-top: -14px;}
   .nuo-kaires240px {padding-left: 321px; margin-top: -45px}
   .nuo-kaires165px {padding-left: 210px; margin-top: -159px}
     .nuo-kaires240px {padding-left: 320px; }
@@ -124,17 +132,17 @@
 .nuo-kaires159px {padding-left: 159px; margin-top: -17px}
 .nuo-kaires150px {padding-left: 150px; margin-top: -17px}
 .nuo-kaires144px {padding-left: 144px; margin-top: -17px}
-.nuo-kaires108ypx {padding-left: 108px; margin-top: -17px}
+.nuo-kaires108ypx {padding-left: 125px; margin-top: -17px}
 .nuo-kaires127xpx {padding-left: 127px; margin-top: -17px}
 .nuo-kaires134px {padding-left: 134px; margin-top: -17px}
 
 .nuo-kaires92ypx {padding-left: 92px; margin-top: -17px}
-.nuo-kaires54xpx {padding-left: 54px; margin-top: -17px}
-.nuo-kaires65xpx {padding-left: 65px; margin-top: -17px}
+.nuo-kaires54xpx {padding-left: 60px; margin-top: -17px}
+.nuo-kaires65xpx {padding-left: 82px; margin-top: -17px}
 .nuo-kaires110px {padding-left: 110px; margin-top: -17px}
 .nuo-kaires1xpx {padding-left: 70px; margin-top: -17px}
 .nuo-kaires121px {padding-left: 121px; margin-top: -17px}
-.nuo-kaires85xpx {padding-left: 85px; margin-top: -17px}
+.nuo-kaires85xpx {padding-left: 106px; margin-top: -17px}
 .nuo-kaires73xpx {padding-left: 73px; margin-top: -17px}
 .nuo-kaires22px {padding-left: 22px; margin-top: -17px}
 .nuo-kaires22xpx {padding-left: 17px; margin-top: -17px}
@@ -152,17 +160,7 @@
 .marginxright {margin-right: 140px; }   <!--   buvo 100 -->
 .marginxright-70 {margin-right: 70px; }  <!--  buv 55px -->
 .margin-5top {  margin-top: -10px ; padding-left:55px;  }     <!--  buv -10px -->
-
-.Dennis-Kim-aprasas {
-   font-family: 'Libre Baskerville', serif;
-  font-size: 14px;
-   font-style: italic;
-  line-height: 1.71;
-  letter-spacing: 0.1px;
-  text-align: center;
-  color: #333333;
-}
-
+.margin-xtop {  margin-top: -31px ; }
 .input-size{
   height: 260px;  /* The maps height is 260 pixels */
   width: 800px;  /* The width */
@@ -195,7 +193,6 @@
     text-align: center;
     color: #ffffff;
   }
-
 
 
 .fonas-bordo {background-color: #c53163;}
@@ -235,7 +232,17 @@ color: white;
   letter-spacing: 0.5px;
   text-align: right;
 }
-
+.Dennis-Kim-aprasas {
+   font-family: 'Libre Baskerville', serif;
+  font-size: 14px;
+  font-weight: 400;
+   font-style: italic;
+   line-height: 1.71;
+  letter-spacing: 0.1px;
+  /* text-align: center; */
+  color: lightgrey;
+  margin-top: -8px;
+}
 .Dennis-Kim {
   font-family: 'Libre Baskerville', serif ;
   font-size: 18px  ;
@@ -244,6 +251,10 @@ color: white;
   text-align: center;
 }
 .margin-35top {  margin-top: -35px; letter-spacing: 0px !important;}
+.margin-l29 {margin-left: -29px}
+.margin-l20 {margin-left: -5px}
+.margin-l15 {margin-left: -15px}
+.margin-t {margin-top: -8px}
 .row-no-margin {margin: 0.0rem 0;}
 .juodos-raides {color:black;}
 .juodas-fonas {background-color: black;}
