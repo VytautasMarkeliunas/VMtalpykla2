@@ -16,12 +16,17 @@
  content:"";
 }
 
+
+/* .col-3 {width: 24.5%} */
+/* .col-6 {width: 48.5%} */
 .baltos-raides{color:white;}
 
+/* .font-suo14px{font-family: 'Libre Baskerville', serif; font-size:0.875rem} <!--  headeryje  --> */
+/* .font-sintony14px{font-family: 'Sintony', sans-serif; font-size:0.875rem} */
 .fontas32 {font-size: 32px;}
 
- .galva { height: 630px; /* max-width: 800px;   aukstis parinktas paga pavieksliuko santykį 640:1440*/
-   background-image: url(../photo/BG_Image.jpg),linear-gradient(rgb(255,206,170),rgb(255,206,170));
+ .galva { height: 630px; /* max-width: 800px;   aukstis parinktas paga paviekdlsiukosantyk5 640:1440*/
+   background-image: url(BG_Image.jpg),linear-gradient(rgb(255,206,170),rgb(255,206,170));
 
   background-repeat: no-repeat,no-repeat;
   background-size: cover,cover;
@@ -100,7 +105,7 @@ width: 135px;
 
     .nuo-kaires-26ypx {padding-left: 26px; margin-top: 26px; }
             .nuo-kaires67px {padding-left: 67px}
-            /* .nuo-kaires-54xpx {padding-left: 48px;} */
+            .nuo-kaires-54xpx {padding-left: 48px;}
             .nuo-kaires-39zpx {padding-left: 39px; }
             .nuo-kaires-130px {padding-left: 130px; margin-top: 10px;}
             .nuo-kaires-130ypx {padding-left: 130px; margin-top: 10px; }
@@ -225,7 +230,6 @@ color: white;
 .juodas-fonas {background-color: black;}
 .baltas-fonas {background-color: white; }
 .w-vardas {width: 370px;}
-.plotis-vardo {width: 120px;}
 .bordo-raides {color: #c53163;}
 
 .baltas-circle
@@ -244,7 +248,7 @@ width: 30px;}
 
 .footer {height: 180px;  background-color:#333333;}
 .Copyright {
-  font-family: 'Sintony', sans-serif;
+  font-family: 'Sintony';
   font-size: 10px;
   letter-spacing: 0px;
   text-align: center;
@@ -294,7 +298,6 @@ width: 30px;}
       }
       div.nuo-kaires-460zpx {padding-left: 140px; }
       article.nuo-kaires-461zpx {padding-left: 180px; }
-      span.nuo-kaires-54xpx {padding-left: 2px;}
      }
 
 
@@ -303,7 +306,6 @@ width: 30px;}
       display: none;
     }
     span.nuo-kaires50px {padding-left: 50px}
-    span.nuo-kaires-54xpx {padding-left: 48px;}
  }
 
  @media screen and (max-width: 1000px) {
@@ -315,7 +317,7 @@ width: 30px;}
    font-size: 3vmin;
  }
 
-   .nuo-kaires-26xpx { padding-left: 25px ;}   /* buvo 48 */
+   .nuo-kaires-26xpx {padding-left: 30px; margin-right: -5px}   /* buvo 48 */
  /* }
     @media screen and (max-width: 1000px) { */
       span.nuo-kaires110px {padding-left: 2px }
