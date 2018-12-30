@@ -21,8 +21,8 @@
 /* .col-6 {width: 48.5%} */
 .baltos-raides{color:white;}
 
-.font-suo14px{font-family: 'Libre Baskerville', serif; font-size:0.875rem} <!--  headeryje  -->
-.font-sintony14px{font-family: 'Sintony', sans-serif; font-size:0.875rem}
+/* .font-suo14px{font-family: 'Libre Baskerville', serif; font-size:0.875rem} <!--  headeryje  --> */
+/* .font-sintony14px{font-family: 'Sintony', sans-serif; font-size:0.875rem} */
 .fontas32 {font-size: 32px;}
 
  .galva { height: 630px; /* max-width: 800px;   aukstis parinktas paga paviekdlsiukosantyk5 640:1440*/
@@ -61,19 +61,22 @@
   font-size: 20px;
   font-weight: normal;
   font-style: italic;
-
-  text-align: center;
+width: 135px;
+  /* text-align: center; */
   color: #ffffff;
 }
 /*  del skaidriu */
 .font36px{font-size: 36px;}
 .font20px {font-size: 20px;}
 .skaidres{ height: 385px; background:#f1f1f1;  width: 100%}
+.skaidres-mini{ height: 770px; background:#f1f1f1;  width: 100%}
+
 .flex_display {display:flex;  }
 .centras{align-items: center; height: 120px}
-.nuo-kaires10px {padding-left: 20px}
-.MultiCarousel { float: left; overflow: hidden; padding: 35px; width: 100%; position:relative;left: 0; right: 0; margin-top: auto; } /*bivp 15px 100proc width */
-    .MultiCarousel .MultiCarousel-inner { transition: 1s ease all; float: left; }
+
+.MultiCarousel { float: left; overflow: hidden; padding: 35px; width: 100%; position:relative;left: 0; right: 0; margin-top: auto; }
+     /*bivp 15px 100proc width */
+        .MultiCarousel .MultiCarousel-inner { transition: 1s ease all; float: left; }
         .MultiCarousel .MultiCarousel-inner .item { float: left;}
         .MultiCarousel .MultiCarousel-inner .item > div { text-align: center; padding:10px; margin:10px; background:#f1f1f1; color:#666;}
     .MultiCarousel .leftLst, .MultiCarousel .rightLst { position:absolute; border-radius:50%;top:calc(50% - 20px); }
@@ -81,10 +84,9 @@
     .MultiCarousel .rightLst { right:0; }
 
         .MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { pointer-events: none; background:white; }
+
         .FOLLOW-US-ON-INSTAGR {
-  /* width: 208px; */
-  /* height: 13px; */
-  font-family:  'Sintony', sans-serif;
+    font-family:  'Sintony', sans-serif;
   font-size: 16px;
 
   line-height: 1.25;
@@ -95,81 +97,46 @@
 /* pabaiga dels skaidriu */
 
 /*  komandos paveiksliukai*/
-.komanda  { height: 180px;
-}
-.apvalus {border-radius: 50%}
-.veidai {height: 312px;}
-.pavardes {height: 55px;}
-.nuo-kaires50px {padding-left: 50px}
-.nuo-kaires67px {padding-left: 67px}
-.nuo-kaires-54xpx {padding-left: 48px;}
-.nuo-kaires-460zpx {padding-left: 442px; }
-.nuo-kaires-461zpx {padding-left: 480px; }
-.nuo-kaires-39zpx {padding-left: 39px; }
-.nuo-kaires-130px {padding-left: 130px; margin-top: 10px;}
-.nuo-kaires-131px {padding-left: 95px; margin-top: 10px;}
-.nuo-kaires-129px {padding-left: 92px; margin-top: 10px;}
-.nuo-kaires-84px {padding-left: 84px; margin-top: 10px;}
-.nuo-kaires-86px {padding-left: 42px; margin-top: 10px;}
-.nuo-kaires-55xpx {padding-left: 147px}
-.nuo-kaires-60xpx {padding-left: 86px}
+    .komanda  { height: 180px;
+    }
+    .apvalus {border-radius: 50%}
+    .veidai {height: 312px;}
+    .pavardes {height: 55px;}
 
-.nuo-kaires110px {padding-left: 108px}
-.nuo-kairespx {padding-left: 95px}
-.nuo-kaires12px {padding-left: 12px}
-.nuo-kaires130px {padding-left: 130px; margin-top: -10px;  }
-.nuo-kaires13Zpx {padding-left: 107px; margin-top: -10px;  }
-.nuo-kaires162px {padding-left: 162px; margin-top: -16px;  }
-.nuo-kaires144xpx {padding-left: 144px; margin-top: -16px;  }
-
-.nuo-kaires155px {padding-left: 155px; margin-top: -16px;  }
-.nuo-kaires136xpx {padding-left: 136px; margin-top: -16px;  }
-.nuo-kaires170px {padding-left: 170px; margin-top: -14px;  }
-.nuo-kaires143px {padding-left: 143px; margin-top: -14px; }
-.nuo-kaires149px {padding-left: 149px; margin-top: -14px; }
-.nuo-kaires111px {padding-left: 135px; margin-top: -14px;}
-.nuo-kaires96xpx {padding-left: 126px; margin-top: -14px;}
-  .nuo-kaires240px {padding-left: 325px; margin-top: -45px}  <!-- buvo 337 -->
-  .nuo-kaires165px {padding-left: 210px; margin-top: -159px}
-    /* .nuo-kairesxxxpx {padding-left: 320px; } */
-  .nuo-kairespx {padding-left: 160px; margin-top: -25px; margin-right: -10px} <!--169 kontact imput formos pozicijai  bov 100 ir 8-->
-.nuo-kaires159px {padding-left: 159px; margin-top: -17px}
-.nuo-kaires150px {padding-left: 150px; margin-top: -17px}
-.nuo-kaires144px {padding-left: 144px; margin-top: -17px}
-.nuo-kaires108ypx {padding-left: 125px; margin-top: -17px}
-.nuo-kaires127xpx {padding-left: 127px; margin-top: -17px}
-.nuo-kaires134px {padding-left: 134px; margin-top: -17px}
-
-.nuo-kaires92ypx {padding-left: 92px; margin-top: -17px}
-.nuo-kaires54xpx {padding-left: 60px; margin-top: -17px}
-.nuo-kaires65xpx {padding-left: 82px; margin-top: -17px}
-.nuo-kaires110px {padding-left: 110px; margin-top: -17px}
-.nuo-kaires1xpx {padding-left: 70px; margin-top: -17px}
-.nuo-kaires121px {padding-left: 121px; margin-top: -17px}
-.nuo-kaires85xpx {padding-left: 106px; margin-top: -17px}
-.nuo-kaires73xpx {padding-left: 73px; margin-top: -17px}
-.nuo-kaires22px {padding-left: 22px; margin-top: -17px}
-.nuo-kaires22xpx {padding-left: 17px; margin-top: -17px}
-.nuo-kaires26px{padding-left: 26px}
-.karusele-nuo-kaires4 {padding-left: 32px}
-
-.nuo-kaires146px {padding-left: 146px; margin-top: -36px}
+    .nuo-kaires-26ypx {padding-left: 26px; margin-top: 26px; }
+            .nuo-kaires67px {padding-left: 67px}
+            .nuo-kaires-54xpx {padding-left: 48px;}
+            .nuo-kaires-39zpx {padding-left: 39px; }
+            .nuo-kaires-130px {padding-left: 130px; margin-top: 10px;}
+            .nuo-kaires-130ypx {padding-left: 130px; margin-top: 10px; }
+            .nuo-kaires-131px {padding-left: 96px; margin-top: 10px;}   /* buvo 95 */
+            .nuo-kaires-129px {padding-left: 91px; margin-top: 10px;}   /* buvo 92 */
+             .nuo-kaires-55xpx {padding-left: 147px}
+            .nuo-kaires-60xpx {padding-left: 86px}
+            .nuo-kaires165px {padding-left: 210px; margin-top: -159px}
+            .nuo-kairespx {padding-left: 160px; margin-top: -25px; margin-right: -10px} /*  kontact imput formos pozicijai  */
+            .nuo-kaires127xpx   {padding-left: 127px; margin-top: -17px}
+            .nuo-kaires134px {padding-left: 134px; margin-top: -17px}
+            .nuo-kaires22px {padding-left: 22px; margin-top: -17px}
+            .nuo-kaires22px-c {padding-left: 1px; margin-top: -17px}
+            .nuo-kaires22xpx {padding-left: 17px; margin-top: -17px}
+            .nuo-kaires26px{padding-left: 26px}
+.karusele-nuo-kaires4 {padding-left: 22px}
 .nuo-virsaus8px {padding-top: 8px}
 .nuo-virsaus40px {padding-top: 40px}
 .margin-2top {  margin-top: -2px}
 .margin-xtop {margin-top: -3px}
 .marginright-12 {margin-right: 11px}
-
-
 .margin-132top {  margin-top: -139px; padding-right: 62px; display: float;}
 .marginxright {margin-right: 140px; }   <!--   buvo 100 -->
 .marginxright-70 {margin-right: 70px; }  <!--  buv 55px -->
+.marginxright-50 {margin-right: 50px; }
 .margin-5top {  margin-top: -10px ; padding-left:55px;  }     <!--  buv -10px -->
-/* .margin-xtop {  margin-top: -31px ; } */
-.input-size{
-  height: 260px;  /* The maps height is 260 pixels */
-  width: 800px;  /* The width */
- }
+.margin5top {  margin-top: -10px ;  }
+.margin-5xtop {  margin-top: -10px ;    }
+.margin-7top {  margin-top: -2px ; padding-left:55px;  }
+
+
 .Meet-Our-Team {
    font-family: 'Libre Baskerville', serif;
   font-size: 36px;
@@ -192,15 +159,12 @@
 }
 
   .Contact-pabrauk {
-     /* font-family: 'Sintony', serif; */
-    font-size: 36px;
+     font-size: 36px;
      letter-spacing: 0px;
     text-align: center;
     color: #ffffff;
   }
 
-
-.fonas-bordo {background-color: #c53163;}
 .blokas{
   display: block;
   width: 100%;height: 45px;
@@ -244,9 +208,9 @@ color: white;
    font-style: italic;
    line-height: 1.71;
   letter-spacing: 0.1px;
-  /* text-align: center; */
   color: lightgrey;
   margin-top: -8px;
+
 }
 .Dennis-Kim {
   font-family: 'Libre Baskerville', serif ;
@@ -265,7 +229,7 @@ color: white;
 .juodos-raides {color:black;}
 .juodas-fonas {background-color: black;}
 .baltas-fonas {background-color: white; }
-.fonas-bordo { background-color: #c53163; border-radius: 60%; background-size: cover; }
+.w-vardas {width: 370px;}
 .bordo-raides {color: #c53163;}
 
 .baltas-circle
@@ -275,10 +239,8 @@ color: white;
            background-color: white;
            height: 35px;
            width: 35px;
-
        }
-       .baltas-circle:hover
-       {
+       .baltas-circle:hover {
            border-color: #c53163;
        }
 .mazas-circle {   height: 30px;
@@ -286,13 +248,95 @@ width: 30px;}
 
 .footer {height: 180px;  background-color:#333333;}
 .Copyright {
-  font-family: Sintony;
+  font-family: 'Sintony';
   font-size: 10px;
-
   letter-spacing: 0px;
   text-align: center;
   color: darkgrey;  opacity: 0.9;
 }
 .super-footer {height: 40px; background-color:black;}
- /* .kontaktai-sulygiuoti {display: float; float-direction: column} */
-  /* .input {padding: 6px} */
+
+/* ----------------------------------------- response --------------------------------------------*/
+
+
+@media screen and (max-width: 1200px) {
+    div.skaidres {
+      display: none;
+    }
+  div.No_3-IMG {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+    div.skaidres-mini {
+      display: none;
+    }
+  div.fantom_3-IMG {
+    display: none;
+  }
+  article.nuo-kaires-461zpx {padding-left: 480px; }
+}
+
+/*max 1000*/
+@media screen and (min-width: 1001px) {
+  div.only_1-IMG {
+    display: none;
+  }
+
+    div.fantom_2-IMG {
+      display: none;
+    }
+
+    div.nuo-kaires240px {padding-left: 325px; }
+    div.nuo-kaires-460zpx {padding-left: 442px; }
+    }
+
+    @media screen and (max-width: 766px) {
+      div.skaidres_p {
+        height: 295px; background:#f1f1f1;  width: 70vw; margin-top: -7px; margin-bottom: 5px;
+      }
+      div.nuo-kaires-460zpx {padding-left: 140px; }
+      article.nuo-kaires-461zpx {padding-left: 180px; }
+     }
+
+
+  @media screen and (min-width: 767px) {
+    div.skaidres_p {
+      display: none;
+    }
+    span.nuo-kaires50px {padding-left: 50px}
+ }
+
+ @media screen and (max-width: 1000px) {
+  span.nerodyti-iki-767, div.nerodyti-iki-767, div.No_2-IMG {
+     display: none;
+   }
+
+ div.p {
+   font-size: 3vmin;
+ }
+
+   .nuo-kaires-26xpx {padding-left: 30px; margin-right: -5px}   /* buvo 48 */
+ /* }
+    @media screen and (max-width: 1000px) { */
+      span.nuo-kaires110px {padding-left: 2px }
+      div.nuo-kaires240px {padding-left: 25px; margin-top: -5px}
+
+      div.gmap {
+       display: none;
+     }
+    }
+    @media screen and (min-width: 1001px) {
+      span.nuo-kaires110px {padding-left: 108px }
+
+    }
+
+
+    @media screen and (min-width: 767px) and (max-width: 1200px) {
+        i.nerodyk-nuo-767-iki-1000 {display: none;}
+            div.nuo-kaires-460zpx {padding-left: 300px; }
+        article.nuo-kaires-461zpx {padding-left: 370px; }
+}
+
+/* response carousel - lango aukštis didėja , kad tilptų skaidrės */

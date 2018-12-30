@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="The projectred site provides information about Premium Quality & Traditions cherished team" >
+    <meta name="author" content="Vytautas Markeliūnas">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projectred</title>
+
+
+  <!-- "IKONOMS" - naudosim bent 6 piktogramas (soc. tinklai, dvilapis, rodyklė), be to, sukinėsim, perdengsim, reversimsim spalvas, todėl reiks atitinkamų klasių -->
+       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+       <link rel="stylesheet" href="CSS/styles.css"> <!-- mano css aukščiau už būtstrapo, kad jo nekeistų  jacquere, poper ir dar vienas, gal aria  turi b8ti , kad navigacija veiktu -->
+
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+       <!-- dėl skaidrių -->
+       <!-- <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script> -->
+       <script
+         src="https://code.jquery.com/jquery-1.11.1.min.js"
+         integrity="sha256-VAvG3sHdS5LqTT+5A/aeq/bZGa/Uj04xKxY8KM/w9EE="
+         crossorigin="anonymous"></script>
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+       <!-- fontai  gūglo -->
+       <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700" rel="stylesheet">
+       <!-- <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet"> -->
+       <link href="https://fonts.googleapis.com/css?family=Sintony" rel="stylesheet">
+       <!--  guglo maps -->
+
+       <style>  <!--  čia klasės, netinkamos deti į css, nes pjaunasi su būtstrapo klasėmis ar su kitomis css -->
+         .pilkos-raides {color: grey;}
+         .btn-primary { background:#f1f1f1;}
+         a :hover{text-decoration: underline;}
+         <!-- pilkos raides-pradines rodoms nutylimą reikšmę formos laukams message  ir name -->
+         .pilkos-raides-pradines::placeholder {color: gray; font-size: 16px; padding-left: 10px;}
+           .juodos-raides::placeholder {
+         color: black; font-weight: bold; font-size: 16px; padding-left: 2px;
+         opacity: 1; /*  ivesties lauko teksto spalvos keitimas */
+         }
+         .fonas-bordo {background-color: #c53163; border-color:#c53163; }
+         #map {
+           height: 218px;  /* The maps height is 218 pixels */
+           width: 380px;  /* The width  420 */
+          }
+          div.no-img {}
+          img.no-img { }
+ /* For mobiles phones: */
+ @media screen and (max-width: 700px) {
+      img.no-img {
+     display: none;
+   }
+   div.no-img {
+  display: none;
+}
+
+ }
+          /* @media screen and (max-width: 400px) { */
+/*  */
+              /* div.not-for-phones { */
+                  /* display: none; */
+           /* } */
+          /* } */
+       </style>
+  </head>
+  <body>
+
+<div class="container">   <!-- matmenys 1440  x 2682  -->
+
+      <header>  <!-- matmenys 1440  x 640  40rem   44vw su foniniu pav -->
+<div class="row  galva">   <!-- galva x 640 -->
+
+<div class="col-12">
+          <div class="row">
+<div class="col-2"> </div>   <!-- tustuma su logo de6in4je -->
+<div class="row float-right">
+
+  <span class="fa-stack fa-lg baltos-raides pt-2 ">
+  <i class="far fa-circle fa-stack-2x"></i>
+  <i class="fas fa-seedling fa-rotate-270 fa-stack-1x "></i>
+</span>
+  <!-- <i class="fas fa-seedling fa-lg fa-rotate-270"></i> -->
+</div>
+
+        <div class="col-8">   <!-- navigacijos meniu ir logo -->
+<div class="row float-right">
+
+<nav class="navbar navbar-expand">
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link ABOUT-US pl-4" href="#"><article > HOME </article></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link ABOUT-US pl-4" href="#">
+           <article > ABOUT US </article></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link ABOUT-US pl-4" href="https://www.facebook.com/Erste-Tegernseer-Kaffeer%C3%B6sterei-122632251099052/"><article > SOCIAL </article></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link ABOUT-US pl-4" href="#"><article > CONTACT </article></a>
+    </li>
+  </ul>
+</nav>
+</div>
+        </div>
+    <div class="col-2"> </div>   <!-- tustuma po navigacijos-->
+        </div>
+
+         <div class="row ">
+           <div class="col-2">
+           </div>
+           <div class="col-8">
+<div> <br><br><br><br> <br><br><br><br>
+             <p class="Premium-Quality text-center">
+               Premium Quality & Tradition
+             </p>
+</div>
+           </div>
+           <div class="col-2">
+           </div>
+         </div>
+         <!--  zemiau - d4l teksto SINCE...-->
+         <div class="row">
+           <div class="col-4">
+           </div>
+           <div class="col-4  ">
+             <div class="row ">
+
+      <div class="font-weight-bold text-white pl-3" >
+                 _______________
+      </div>
+             <div class="SINCE-1978 pt-1 pl-3"> SINCE 1978 </div> <!--  pt-1 islyginimui vertikaliai -->
+     <div class="font-weight-bold text-white pl-3">
+               _______________
+     </div>
+
+             </div>
+           </div>
+           <div class="col-4">
+           </div>
+
+         </div>
+         <!-- varnelė zemyn veda apacios, reiks pridėti JS scriptą veliau-->
+         <br> <br> <br> <br>  <br> <br> <br>
+         <div class="row">
+           <div class="col-5"> </div>
+
+          <div class="col-4">
+            <div class="row">
+              <div class=" pl-5 ">
+
+            <a class="nuo-kaires26px" href="#">
+              <i class="fas fa-chevron-down  fontas32 text-white"></i>
+            </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-3"> </div>
+         </div>
+   </div> <!-- col-12 -->
+        </div>
+                         <!-- ----- didelis tekstas---- -->
+
+      </header>
+
+         <div class="row komanda">
+
+           <!-- meat-our-team x 695 -->
+
+          <div class="col-4"> </div>
+         <div class="col-4">
+           <br> <br>
+           <div class="row">
+                <span class="Meet-Our-Team nuo-kaires50px">Meet Our Team</span>
+           </div>
+           <div class="row">
+                <span class=" nuo-kaires134px ">____________________</span>
+           </div>
+         </div>
+          <div class="col-4"> </div>
+  </div> <!-- end row met-yor - time -->
+        <div class="row veidai ">
+          <!--  komandos  nuotraukos -->
+            <div class="col-1"> </div>
+
+            <div class="col-3  "> <img src="Photo/Veidas2.jpg" alt="pirmas veidas" class="apvalus">
+            </div>
+            <div class="col-3 pl-5 "> <img src="Photo/Veidas1.jpg" alt="antras veidas" class="apvalus">
+            </div>
+
+             <div class="col-3  ">
+                  <div class="nuo-kaires67px " > <img src="Photo/Veidas3.jpg" alt="trečias veidas" class="no-img apvalus"> </div>
+             </div>
+
+             <div class="col-2"> </div>
+          </div>
+          <div class="row pavardes">
+            <!--  komandos pavardes -->
+            <div class="col-1 " > </div>
+
+              <div class="col-3 pl-5  ">  <span class="Dennis-Kim nuo-kaires-54xpx">Dennis Kim</span>
+              </div>
+              <div class="col-3 pl-5 "> <span class="Dennis-Kim nuo-kaires-60xpx" >Sara McCoy</span>
+              </div>
+              <div class="col-4  pl-4 "> <span class="Dennis-Kim nuo-kaires-55xpx no-img">Emily Porter</span>
+              </div>
+              <div class="col-1"> </div>
+            </div>
+
+     <div class="col-12">
+       <div class="row">
+           <div class="margin-5top Dennis-Kim-aprasas text-center nuo-kaires-130px margin-l29">
+               <p >In the tumultuous business</p>
+               <p class="margin-t">cutting-in and attending to a whale,</p>
+               <p class="margin-t">there is much running backwards</p>
+               <p class="margin-t">and forwards among the crew.</p>
+           </div>
+           <div class="margin-5top Dennis-Kim-aprasas text-center nuo-kaires-131px ">
+               <p class="margin-t">In the tumultuous business</p>
+               <p class="margin-t">cutting-in and attending to a whale,</p>
+               <p class="margin-t">there is much running backwards</p>
+               <p class="margin-t">and forwards among the crew.</p>
+           </div>
+           <div class="margin-5top Dennis-Kim-aprasas text-center nuo-kaires-129px ">
+               <p class="margin-t">In the tumultuous business</p>
+               <p class="margin-t">cutting-in and attending to a whale,</p>
+               <p class="margin-t">there is much running backwards</p>
+               <p class="margin-t">and forwards among the crew.</p>
+           </div>
+     </div>
+
+        <br>
+        <div class="row row-no-margin"> <!--  foto-juosta  x 438 -->
+
+<!-- dėl skaidrių -->
+
+<div class="row skaidres pl-2 ml-1">
+
+<div class="col-12">
+
+<div class="ROW">
+  <!-- <div class="flex_display justify-content-center"> -->
+  <div class="MultiCarousel" data-items="1,2,3,4" data-slide="1" id="MultiCarousel"  data-interval="1000">
+          <div class="MultiCarousel-inner karusele-nuo-kaires4 ">
+              <div class="item pl-1">
+                  <div class="pad15">
+                     <img src="Photo/Feed/Image1.jpg" alt="pirmas pav.">
+                  </div>
+              </div>
+              <div class="item pl-1">
+                  <div class="pad15">
+                      <img src="Photo/Feed/Image2.jpg" alt="antras pav.">
+                  </div>
+              </div>
+              <div class="item pl-1">
+                  <div class="pad15">
+                    <img src="Photo/Feed/Image3.jpg" alt="trečias pav.">
+                  </div>
+              </div>
+              <div class="item pl-1">
+                  <div class="pad15">
+                      <img src="Photo/Feed/Image4.jpg" alt="ketv. pav.">
+                  </div>
+              </div>
+
+          </div>
+          <button class="btn btn-light leftLst btn-primary" data-slide="prev"> <i class="fas fa-chevron-left pl-3 font36px"></i> </button>
+          <button class="btn btn-light rightLst btn-primary" data-slide="next" > <i class="fas fa-chevron-right pr-4 font36px"></i> </button>
+
+      </div>
+      </div>
+
+ </div>
+ <br>
+ <div class="col-4">  </div>
+ <div class="col-5">
+   <div class="row  nuo-kaires22px">
+<!-- buvo 22 -->
+   <a class="btn btn-light " href="#">
+   <div>
+   <i class="fab fa-instagram fa-2x "></i>
+   </div>
+   </a>
+<a class="btn btn-light pilka-spalva" href="#">
+    <div class="FOLLOW-US-ON-INSTAGR nuo-virsaus8px pr-2"> FOLLOW US ON INSTAGRAM </div>
+</a>
+
+  </div>
+  </div>
+ <div class="col-3">  </div>
+ <br> <br> <br>
+      <!-- <div class="col-1">   </div> -->
+
+</div> <!-- end of karusele - skaidres -->
+
+        <!-- <p>Change data items for xs,sm,md and lg display items respectively. Ex:data-items="1,3,5,6"</p> -->
+        <!-- <p>Change data slide for slides per click Ex:data-slide="1"</p> -->
+    <!-- </div> -->
+<!-- </div> -->
+
+</div> <!-- end of foto-juosta  x 438 -->
+        <div class="row row-no-margin Contact-Section">  <!-- contact-us x 646 -->
+          <div class="col-4"> </div>
+         <div class="col-4">
+           <br> <br>
+           <div class="row">
+                <span class="Contact-Us nuo-kaires110px">Contact Us</span>
+           </div>
+           <div class="row">
+                <div class="Contact-pabrauk nuo-kaires134px margin-35top ">__________</div>
+           </div>
+         </div>
+          <div class="col-4"> </div>
+          <br><br>
+          <div class="row">  <!--   kontaktai ir guglo nuoroda -->
+
+                  <div class="col-lg-7 ">
+                    <!--Form  from https://mdbootstrap.com/docs/jquery/javascript/google-maps/#map-contact-1 pritaikyta VM  ;buvo  165 pl  nuo kaires100 buvo- -->
+                    <div class="card fonas-bordo nuo-kairespx">
+
+                      <div class="card-body">
+                                  <!--Body-->
+                        <div class="md-form">
+                          <input type="text" id="form-name" class="form-control Full-Name pilkos-raides-pradines mb-3 pl-3" required placeholder="Full name" >
+                        </div>
+
+                        <div class="md-form">
+                          <input type="text" id="form-email" class="form-control Full-Name juodos-raides mb-3" required placeholder="Contact@email.com">
+                        </div>
+                        <div class="md-form">
+
+                          <textarea type="text" id="form-text" class="form-control md-textarea Full-Name pilkos-raides" rows="4">Message</textarea>
+
+                        </div>
+
+                        <div class="text-center mt-4">
+                          <button class="btn blokas">SEND</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+              <div class="col-5"  > <!--  guglo maps nuoroda -->
+
+                <div  class="marginxright">
+                  <div id="map" class="margin-2top marginxright-70 "></div>
+                  <script>
+              // Initialize and add the map
+              function initMap() {
+                // The location of ""Uluru""
+                var uluru = {lat: 40.762748, lng: -73.981210};
+                // The map, centered at Uluru, with disabled controls - t. y. atjungta papildomi elementai mapse, staciakampiukai, žr. developers.google.com/maps/documentation/javascript/controls
+                var map = new google.maps.Map(
+                    document.getElementById('map'), {zoom: 14, center: uluru, disableDefaultUI: true});
+                // The marker, positioned at "Uluru"
+                var marker = new google.maps.Marker({position: uluru, map: map});
+              }
+                  </script>
+                  <script async defer
+                  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCyvfPD_IXWEFSa0GGYUFO08ieklak12k4 &callback=initMap">
+                  </script>
+                  </div>
+                <br>
+                <div class="margin-5top Avenue text-center">
+                    <span>Avenue  53rd  Street </span>
+                    <p > New York, 10019, United States</<p>
+
+                </div>
+
+              </div> <!-- end  guglo nuoroda -->
+          </div>
+        </div>
+
+        <div class="row footer mt-1 mb-0"> <!--footer 223 -->
+
+            <div class="col-12 nuo-virsaus40px w-100">
+
+        <div class="row flex_display">
+
+            <div class="margin-xtop nuo-kaires240px marginright-12 "> <!-- sumargin atstumia,  bordo ratuk1 -->
+                <nav class="navbar navbar-expand ">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link ABOUT-US pl-4" href="#"><article > HOME </article></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link ABOUT-US pl-4" href="#">
+                           <article > ABOUT US </article></a>
+                    </li>
+                  </ul>
+                </nav>
+            </div>
+
+            <div class="baltas-circle  fonas-bordo mt-1 ">
+                <div><i class="fas fa-seedling fa-rotate-270 fa-stack-1x baltos-raides pt-3 pl-3"></i></div>
+            </div>
+
+            <div class="margin-xtop">
+                <nav class="navbar navbar-expand">
+                  <ul class="navbar-nav">
+
+                    <li class="nav-item">
+                      <a class="nav-link ABOUT-US pl-4" href="#"><article > SOCIAL </article></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link ABOUT-US pl-4" href="#"><article > CONTACT </article></a>
+                    </li>
+                  </ul>
+                </nav>
+            </div>
+
+            </div>
+
+            <div class="row flex_display pt-3">
+
+                <div class="nuo-kaires-460zpx">
+                <div class="baltas-circle  mazas-circle text-center mt-2 ">
+                    <div class="margin-t1 "><i class="fab fa-facebook-f "></i> </div>
+                </div>
+                </div>
+                <div class="nuo-kaires-39zpx">
+                <div class="baltas-circle mazas-circle text-center mt-2">
+                    <div class="margin-t1"><i class="fab fa-twitter"></i> </div>
+                </div>
+                </div>
+                <div class="nuo-kaires-39zpx">
+                <div class="baltas-circle  mazas-circle text-center mt-2">
+                    <div class="margin-t1"><i class="fab fa-instagram"></i> </div>
+                </div>
+                </div>
+                <div class="nuo-kaires-39zpx">
+                <div class="baltas-circle  mazas-circle text-center mt-2">
+                    <div class="margin-t1"><i class="fab fa-pinterest-p"></i> </div>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <div class="row super-footer row-no-margin "> <!--copyrigth 40 -->
+            <div class="col w-100 ">
+                <div class="row flex_display  ">
+                <article class="Copyright nuo-kaires-461zpx mt-1">
+                Copyright 2015, All Rights Reserved.
+            </article>
+                </div>
+            </div>
+        </div>
+   </div>
+ </div>  <!-- end of CONTAINER -->
+<!--    bootsdtrap sako, ka dturi b8tri apačioje tokie scriptai -->
+<!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script> -->
+<!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> -->
+
+  </body>
+</html>
